@@ -30,6 +30,7 @@ public class fiboPrime {
 	  	        int thirdTerm = 0;
 	        while (thirdTerm < N.get(y))
 	        {
+   		  System.out.println("Adding the numbers to get fibo series");
 	            thirdTerm = firstTerm + secondTerm;
 	             
 	            firstTerm = secondTerm;
